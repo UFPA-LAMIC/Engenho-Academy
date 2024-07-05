@@ -6,7 +6,7 @@ que permite a execução de códigos JavaScript fora de um
 navegador web.) link para download: https://nodejs.org/en/download/prebuilt-installer
 
 -docker(Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.) link para download: https://docs.docker.com/desktop/install/windows-install/
-
+-ubuntu( baixar pelo microsfot store)
 
 
 
