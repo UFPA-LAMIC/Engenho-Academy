@@ -1,0 +1,25 @@
+
+programas necessarios:
+-node js(Node.js é um software de código aberto, 
+multiplataforma, baseado no interpretador V8 do Google e 
+que permite a execução de códigos JavaScript fora de um 
+navegador web.) link para download: https://nodejs.org/en/download/prebuilt-installer
+
+-docker(Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.) link para download: https://docs.docker.com/desktop/install/windows-install/
+
+
+
+
+comando para colar no powershell
+Luan Paiva
+11:15
+wsl --install
+Luan Paiva
+11:20
+wsl --list --verbose
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+Luan Paiva
+11:23
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+wsl --set-default-version 2
+ouq-tzoj-dht
