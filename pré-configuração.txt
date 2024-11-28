@@ -1,4 +1,6 @@
 
+estudar:vue 2
+
 programas necessarios:
 -node js(Node.js é um software de código aberto, 
 multiplataforma, baseado no interpretador V8 do Google e 
@@ -6,8 +8,8 @@ que permite a execução de códigos JavaScript fora de um
 navegador web.) link para download: https://nodejs.org/en/download/prebuilt-installer
 
 -docker(Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.) link para download: https://docs.docker.com/desktop/install/windows-install/
--ubuntu( baixar pelo microsfot store)
 
+-dbeaver(DBeaver é um aplicativo de software cliente SQL e uma ferramenta de administração de banco de dados. Para bancos de dados relacionais, ele usa a interface de programação de aplicativos JDBC para interagir com bancos de dados por meio de um driver JDBC)
 
 
 comando para colar no powershell
@@ -23,3 +25,13 @@ Luan Paiva
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 wsl --set-default-version 2
 ouq-tzoj-dht
+
+comando npm i( instalar as bibliotecas do jiraya)
+
+1ºcomando docker-compose up -d(para criar um conteiner)
+2ºnpm start
+3ºnpx knex seed:run(necessário apenas na configuração primária)
+caso knex seed:run dê errado=(configurar o back-end:npx knex seed:run --specific=0x-nonme_tabela.js(mock de dados), na pasta seeds
+4ºconfigurar o dbeaver de acordo com o db
+5º comando npm run serve(para iniciar o servidor fron-bakc
+
